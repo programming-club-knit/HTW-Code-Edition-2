@@ -10,4 +10,4 @@ else:
         total += numbers[i]
 
     average = total / len(numbers)
-    print("Average=" average)
+    print("Average=" average) 
