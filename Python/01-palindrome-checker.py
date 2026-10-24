@@ -5,7 +5,7 @@ cleaned = "".join(char.lower() for char in text if char.isalnum())
 is_palindrome = True
 
 for i in range(len(cleaned) // 2):
-    if cleaned[i] != cleaned[len(cleaned) - i]:
+    if cleaned[i] != cleaned[len(cleaned) - i-1]:
         is_palindrome = False
         break
 
