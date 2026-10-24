@@ -14,7 +14,7 @@ int main(void) {
         reversed = reversed * 10 + number % 10;
         number /= 10;
     }while (number > 0);
-    
+
 
     printf("Reversed number = %d\n", reversed);
     return 0;
