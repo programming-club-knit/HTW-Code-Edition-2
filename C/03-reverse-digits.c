@@ -10,10 +10,11 @@ int main(void) {
         return 1;
     }
 
-    while (number > 0) {
+    do{
         reversed = reversed * 10 + number % 10;
         number /= 10;
-    }
+    }while (number > 0);
+    
 
     printf("Reversed number = %d\n", reversed);
     return 0;
