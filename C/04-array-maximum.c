@@ -3,7 +3,7 @@
 int main(void) {
     int n;
     int values[100];
-    int maximum = 0;
+    int maximum;
     int N_max = -(__INT_MAX__);
 
     printf("How many integers (1-100)? ");
@@ -20,7 +20,7 @@ int main(void) {
         }
     }
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 1; i < n; i++) {
         if (values[i] < 0)
         {
             
